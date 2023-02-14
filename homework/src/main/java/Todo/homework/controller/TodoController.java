@@ -9,7 +9,7 @@ public class TodoController {
 
 
     @GetMapping("/")
-    public String helloWorld(){
+    public String welcomeToHelloWorld(){
         return "To-do Application !";
 
     }
